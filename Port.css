@@ -1,5 +1,5 @@
 body {
-    background-color: #282c34; 
+    background-color: #081f37; 
     color: #ffffff; 
     font-family: 'Arial', sans-serif; 
     margin: 0; 
@@ -15,7 +15,7 @@ header {
 
 .fornav {
     height: 60px; 
-    background-color: #61dafb; 
+    background-color: #2e79ba; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ header {
 }
 
 .fornav a:hover {
-    color: rgb(255, 165, 0); 
+    color: #5fc9f3; 
 }
 
 .fornav a:hover::after,
@@ -171,7 +171,7 @@ main {
 }
 
 .profile-container {
-    background-color: rgba(255, 255, 255, 0.2); 
+    background-color: #081f37; 
     border-radius: 15px; 
     padding: 20px; 
     max-width: 600px; 
@@ -187,7 +187,7 @@ main {
     margin-bottom: 20px; 
 }
 .Name{
-    color: rgb(218, 218, 41);
+    color: #5fc9f3;
 }
 #projects{
     margin-top: 50px;
@@ -203,7 +203,7 @@ main {
     justify-content: center;
 }
 .Cafe, .Cars, .Sports, .Gadgets, .Computer {
-    background-color: gray;
+    background-color: #1e549f;
     padding: 1rem; 
     text-align: center;
     border-radius: 10px;
@@ -228,7 +228,7 @@ main {
 }
 
 #contact {
-    background-color:  #92c596ae;
+    background-color:  #081f37;
     text-align: center;
     padding: 10px 0;
 }
@@ -273,10 +273,12 @@ footer {
     text-align: center; 
     margin: 30px 0;
     padding: 20px 0; 
-    background-color: #61dafb; 
+    background-color: #2e79ba; 
     position: relative; 
     bottom: 0; 
     width: 100%; 
+    font-size: 18px;
+    color: yellow;
 }
 
 /* Smooth scrolling */
