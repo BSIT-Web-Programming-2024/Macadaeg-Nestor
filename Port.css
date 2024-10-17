@@ -77,6 +77,18 @@ nav ul li .active {
 }
 .home-info h1{
     font-size:55px;
+        width: 473px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid #7E2EA0;
+        animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+    }
+    @keyframes cursor {
+        50% { border-color: transparent }
+    
 }
 .home-info h2{
     font-size: 32px;
