@@ -1,3 +1,10 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 body {
     background-color: #081f37; 
     color: #ffffff; 
@@ -212,15 +219,19 @@ main {
 .Name{
     color: #5fc9f3;
 }
-#projects{
+
+#projects h2{
+    margin-top: 100px;
+}
+.myprojects{
     display:flex;
     align-items:center;
     justify-content: center;
     min-height:100vh;
-    background: linear-gradient(#081f37, #CED6FB);
+    background: linear-gradient(#081f37, #0c2c4d);
 }
 .card-wrapper{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
@@ -231,7 +242,7 @@ main {
 .card-list .card-item .card-link{
     user-select: none;
     display:block;
-    background:white;
+    background:#081f37;
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
@@ -244,7 +255,7 @@ main {
     cursor: grabbing;
 }
 .card-list .card-item .card-link:hover{
-    border-color: #5372F0
+    border-color: #5372F0;
 
 }
 .card-list .card-link .card-image{
@@ -284,24 +295,24 @@ border-radius: 50px;
 
 .card-list .card-link .card-title{
     font-size: 1.19rem;
-    color:black;
+    color:white;
     font-weight: 600;
 }
 .card-list .card-link .card-button{
     height:35px;
     width: 35px;
-    color: #5372F0;
+    color: cyan;
     border-radius: 50%;
     margin: 30px 0 5px;
     background: none;
     cursor: pointer;
-    border: 2px solid #5372F0;
+    border: 2px solid cyan;
     transform: rotate(-45deg);
     transition: 0.4 ease;
 }
 .card-list .card-link:hover .card-button{
     color: #fff;
-    background: #5372F0;
+    background: cyan;
 
 }
 
@@ -313,16 +324,18 @@ border-radius: 50px;
 }
 .card-wrapper .swiper-pagination-bullet-active{
     opacity: 1;
+    
 }
 
 .card-wrapper .swiper-slide-button{
-    color :  #5372F0;
+    color :  #61dafb;
     margin-top: -35px;
 }
 
 @media screen and (max-width: 768px){
     .card-wrapper{
         margin: 0 10px 25px;
+        
     }
     .card-wrapper .swiper-slide-button{
         display: none;
