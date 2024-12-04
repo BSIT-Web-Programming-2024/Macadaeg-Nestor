@@ -342,9 +342,7 @@ border-radius: 50px;
     }
 }
 
-#service{
-    
-}
+
 .wrapper{
     margin:0;
     padding:0;
@@ -508,24 +506,24 @@ border-radius: 50px;
     font-weight: 300;
     color:white;
 }
-.container{
+.contain{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30p;
 }
-.container .contactInfo{
+.contain .contactInfo{
     width:50%;
     display:flex;
     flex-direction: column;
 }
-.container .contactInfo .box{
+.contain .contactInfo .box{
     position: relative;
     padding: 20px 0;
     display:flex;
 }
-.container .contactInfo .box .icon{
+.contain .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
     background: white;
@@ -533,17 +531,17 @@ border-radius: 50px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 22px;;
+    font-size: 22px;
 }
-.container .contactInfo .box .text{
+.contain .contactInfo .box .text{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color:white;;
+    color:white;
     flex-direction: column;
     font-weight: 300;
 }
-.container .contactInfo .box .text h3{
+.contain .contactInfo .box .text h3{
     font-weight: 500;
     color:#00bcd4;
 }
@@ -606,13 +604,13 @@ border-radius: 50px;
     .contact{
         padding: 50px;
     }
-    .container{
+    .contain{
         flex-direction: column;
     }
-    .container .contactInfo{
+    .contain .contactInfo{
         margin-bottom: 40px;
     }
-    .container .contactInfo{
+    .contain .contactInfo{
         width: 100%;
     }
 }
